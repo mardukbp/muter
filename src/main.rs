@@ -107,7 +107,7 @@ The following transforms are available:
 }
 
 fn main() {
-    tr_init!(format!("{}/locale", env!("sharedir")));
+    // tr_init!(format!("{}/locale", env!("sharedir")));
     let reg = CodecRegistry::new();
     let help = help(&reg);
     let matches = App::new("muter")
